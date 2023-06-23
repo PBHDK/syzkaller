@@ -32,3 +32,5 @@ dashboard/app/.gcloudignore
 
 debootstrap/
 !debootstrap/shell.nix
+
+images
