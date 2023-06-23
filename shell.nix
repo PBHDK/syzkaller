@@ -6,7 +6,7 @@ pkgs-unstable.llvmPackages_latest.stdenv.mkDerivation rec {
 
   buildInputs = [
     go
-    qemu
+    qemu_full
     docker
   ];
 
