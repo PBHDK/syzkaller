@@ -13,6 +13,5 @@ pkgs-unstable.llvmPackages_latest.stdenv.mkDerivation rec {
   ];
 
   shellHook = ''
-    alias syz-env="$(go env GOPATH)/src/github.com/google/syzkaller/tools/syz-env"
   '';
 }
