@@ -9,6 +9,7 @@ pkgs-unstable.llvmPackages_latest.stdenv.mkDerivation rec {
     qemu_full
     docker
     debootstrap
+    which
   ];
 
   shellHook = ''
