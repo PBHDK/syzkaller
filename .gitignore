@@ -29,3 +29,6 @@ dashboard/app/.gcloudignore
 .vscode
 
 .direnv
+
+debootstrap/
+!debootstrap/shell.nix
